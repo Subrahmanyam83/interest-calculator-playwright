@@ -1,0 +1,9 @@
+# Environment variables and secrets
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Playwright
+node_modules/
+/build/
