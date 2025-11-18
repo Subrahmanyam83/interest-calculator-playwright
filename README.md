@@ -1,13 +1,37 @@
 ### INSTALLATIONS
-1. `npm init -y` - instantiates a Node project
-2. `npm init -D` - install Playwright tests
-3. `npm install playwright` - installs the browsers
-4. `npm init playwright@latest`- initialises playwright structure(pipelines,tests,config)
-5. Add following dependencies in package.json - `dotenv` and `env-cmd`
+Pre-requisites:
+- [Node latest version](https://nodejs.org/en/download) should be installed
+
+#### Steps taken to create this framework
+1. instantiates a Node project
+   ```bash
+   npm init -y
+   ```
+   
+3.   Install Playwright with test runner and creates structure(pipelines,config and example tests)
+   ```bash
+   npm init -D @playwright/test
+   ```
+5.  Installs the browsers
+   ```bash
+    npm install playwright
+   ```
+
+### INSTALL DEPENDENCIES
+1. Installs all dependencies
+   ```bash
+   npm install
+   ```
+3. Installs browser binaries
+   ```bash
+   npx playwright install
+   ```
 
 ### EXECUTION
 1. Run following command to execute tests on chrome browser locally
-    - `npm run test-chromium`
+   ```bash
+   npm run test-chromium
+   ```
 
 
 
